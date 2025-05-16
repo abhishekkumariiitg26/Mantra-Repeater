@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: sans-serif;
   text-align: center;
   padding: 20px;
@@ -23,4 +23,64 @@ button {
 #timer {
   margin: 15px;
   font-weight: bold;
+} */
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ebd828, #ef37bb);
+  color: #333;
+}
+
+input, select, textarea, button {
+  display: block;
+  margin: 12px auto;
+  padding: 12px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #ed0a0a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,137,123,0.3);
+}
+
+textarea {
+  height: 160px;
+  resize: vertical;
+}
+
+button {
+  background: #c60ff4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #fe1c08;
+  transform: scale(1.02);
+}
+
+#timer {
+  margin: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d84315;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f70505;
 }
