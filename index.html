@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mantra Repeater 2.0</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>🔁 Mantra Repeater</h1>
+
+  <input id="textInput" type="text" placeholder="Enter your mantra (e.g., Jai Shri Ram)" />
+  <button onclick="startVoiceInput()">🎙️ Speak</button>
+  
+  <input id="countInput" type="number" min="1" placeholder="Number of times (e.g., 108)" />
+  
+  <select id="formatSelect">
+    <option value="space">With Space</option>
+    <option value="enter">With Enter</option>
+  </select>
+
+  <button onclick="generate()">Generate</button>
+  <button onclick="startChanting()">🔊 Chant</button>
+  <div id="timer">🕒 0s</div>
+
+  <textarea id="result" rows="8" readonly></textarea>
+  <button onclick="copyText()">Copy</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

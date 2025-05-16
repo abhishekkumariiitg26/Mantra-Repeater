@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #fdf6e3;
+}
+input, select, textarea, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+textarea {
+  height: 150px;
+}
+button {
+  background: #00897b;
+  color: white;
+  border: none;
+}
+#timer {
+  margin: 15px;
+  font-weight: bold;
+}

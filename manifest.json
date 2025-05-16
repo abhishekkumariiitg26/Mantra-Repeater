@@ -1,0 +1,13 @@
+{
+  "name": "Mantra Repeater",
+  "short_name": "Mantra",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fdf6e3",
+  "theme_color": "#00897b",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
+}
